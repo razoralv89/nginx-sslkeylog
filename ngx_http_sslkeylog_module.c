@@ -7,6 +7,7 @@
 #include <ngx_config.h>
 #include <ngx_core.h>
 #include <ngx_http.h>
+#include <ngx_event_openssl.h>
 
 
 typedef ngx_int_t (*ngx_sslkeylog_variable_handler_pt)(ngx_connection_t *c,
